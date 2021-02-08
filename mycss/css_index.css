@@ -1,0 +1,351 @@
+body{
+    background-color: #000;
+    /* bookmark移到body外時避免出現捲動條 */
+    overflow: hidden;
+    /* 除非我的元素都是固定大小(例如px)
+    不然給body設定100vw似乎沒有意義 */
+    /* width: 100vw; */
+}
+
+
+/* 全域 */
+/* 全域 */
+.hero_image{
+    width: 100%;
+    height: 85vh;
+    background-color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hero_image h1{
+    font-size: 6rem;
+}
+.hero_image h2{
+    font-size: 3rem;
+}
+
+.banner{
+    background-color: #ddd;
+    position: sticky;
+    top: 0;
+    height: 15vh;
+    z-index: 1;
+    padding-top: 1px;
+    font-size: 2rem;
+    line-height: 21vh;
+    overflow: hidden;
+}
+.banner>img{
+    display: block;
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    margin: calc(1.5vh - 1px) 1.5vh auto 1.5vh;
+}
+
+
+
+.page_content{
+    margin: 90vh 0 0 0;
+}
+.page_content p{
+    font-size: 2rem;
+}
+.page_content h1{
+    font-size: 5vh;
+}
+.page_content p:last-child{
+    min-height: 80vh;
+}
+
+
+.ABCimg{
+    position: sticky;
+    height: 80Vh;
+    top: 17vh;
+    
+}
+
+.bookmark{
+    background-color: #fff;
+    width: 20vw;
+    height: 5%;
+    position: absolute;
+    top:0%;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 0 0 30% 30%;
+    z-index: 20;
+}
+.bookmark:hover{
+    transition: 0.5s;
+    height: 8vh;
+    line-height: 8vh;
+}
+
+#bm_Mina{
+    left: 0%;
+    background-color: pink;
+}
+#bm_Gall{
+    left: 20%;
+    background-color: #555;
+    color: #fff;
+}
+#bm_Wolfy{
+    left: 40%;
+    background-color: #ddd;
+}
+#bm_SlideShow{
+    left: 60%;
+    background-color: cornflowerblue;
+}
+#bm_Luna{
+    left: 80%;
+    background-color: rgb(255, 184, 52);;
+}
+
+
+
+
+/* A頁面 */
+/* A頁面 */
+#page_A{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(255, 222, 233);
+}
+
+#page_A>.hero_image{
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%,  rgba(255,255,255,0.3) 50%, rgba(240,240,240,1) 75%, rgba(240,240,240,1) 100%),url(../img/Mina_img/Mina_4_2.jpg);
+    background-size: 100% 100%, 75vw;
+    /* background-position: left; */
+    /* background-position-x: -70% ; */
+    background-position-x: -10% ;
+    width: 100vw;
+}
+
+#page_A>.hero_image>div>h1{
+    margin-top: 3vh;
+    margin-left: -7vw;
+}
+#page_A>.hero_image>div>h2{
+    margin-top: 3vh;
+    margin-left: 0vw;
+}
+#page_A>.banner{
+    background-color: pink;
+}
+#page_A > .banner > img{
+    float: left;
+}
+.Aimg_1{
+    background-image: url(../img/Mina_img/Mina_0.jpg);
+    /* background-size: 52vw 39vw ; */
+    background-size: 50vw ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1s;
+}
+.Aimg_2{
+    background-image: url(../img/Mina_img/Mina_2.jpg);
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1s;
+}
+.Aimg_3{
+    background-image: url(../img/Mina_img/Mina_5_2.jpg);
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.Aimg_4{
+    background-image: url(../img/Mina_img/Mina_7_3.jpg);
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+
+/* B頁面 */
+/* B頁面 */
+
+#page_B{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    left: 40%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #eee;
+}
+#page_B>.hero_image{
+    background-position: center;
+    z-index: 2;
+    background-image: linear-gradient(90deg, rgba(240,240,240,1) 0%, rgba(240,240,240,1) 20%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 50%,rgba(255,255,255,0) 65%, rgba(240,240,240,1) 80%, rgba(240,240,240,1) 100%),url(../img/Wolfy_img/Wolfy_4.jpg);
+    background-size: 100% 100%, 100vw;
+    background-position-y: 100%;
+    width: 100vw;
+    /* 下面三行使heroImage在動畫時也能真正的置中 */
+    /* 不能用left: 50vw */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+#page_B>.hero_image>h1{
+    margin-left: 1vw;    
+    margin-top: 8vh;
+}
+#page_B>.hero_image>h2{
+    margin-right: 1vw;    
+    margin-bottom: 8vh;
+    /* position: absolute;
+    top: 80%;
+    left: 70%; */
+}
+#page_B > .banner{
+    display: flex;
+    justify-content: center;   
+}
+
+.Bimg_1{
+    background-image: url(../img/Wolfy_img/Wolfy_2_2.jpg);
+    background-size: 35vw;
+    background-repeat: no-repeat;
+    background-position: 30% 100%;
+    transition: 1s;
+}
+.Bimg_2{
+    background-image: url(../img/Wolfy_img/Wolfy_12.jpg);
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.Bimg_3{
+    background-image: url(../img/Wolfy_img/Wolfy_8.jpg);
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.Bimg_4{
+    background-image: url(../img/Wolfy_img/Wolfy_16.jpg);
+    background-size: 45vw;
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+    transition: 1s;
+}
+.Bimg_5{
+    background-image: url(../img/Wolfy_img/Wolfy_3.jpg);
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: 1s;
+}
+.Bimg_6{
+    background-image: url(../img/Wolfy_img/Wolfy_13.jpg);
+    background-size: 25vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.Bimg_7{
+    background-image: url(../img/Wolfy_img/Wolfy_14.jpg);
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    transition: 1s;
+}
+.Bimg_8{
+    background-image: url(../img/Wolfy_img/Wolfy_17.jpg);
+    background-size: 50vw;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    transition: 1s;
+}
+
+/* C頁面 */
+/* C頁面 */
+
+#page_C{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    left: 80%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color:rgb(255, 234, 162);
+}
+#page_C>.hero_image{
+    /* background-position: right; */
+    position: absolute;
+    z-index: 2;
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%),url(../img/Luna_img/Luna_13.jpg);
+    background-size: 100% 100%, 120vw;
+    /* background-position-x: 60%; */
+    background-position-x: 0%;
+    background-position-y: 40%;
+    width: 100vw;
+    left: -80vw ;
+}
+#page_C>.hero_image>div>h2{
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+#page_C>.banner{
+    background-color: rgb(255, 184, 52);
+}
+#page_C > .banner{
+    text-align: end;
+}
+#page_C > .banner > img{
+float: right;
+}
+
+.Cimg_1{
+    background-image: url(../img/Luna_img/Luna_1.jpg);
+    background-size: 60vw;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    transition: 1s;
+}
+.Cimg_2{
+    background-image: url(../img/Luna_img/Luna_3.jpg);
+    background-size: 65vw;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    transition: 1s;
+}
+.Cimg_3{
+    background-image: url(../img/Luna_img/Luna_0.jpg);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+.Cimg_4{
+    background-image: url(../img/Luna_img/Luna_10.jpg);
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+
+
+
+
+

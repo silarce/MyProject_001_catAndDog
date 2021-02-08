@@ -1,0 +1,557 @@
+/* 相簿連結 */
+/* 相簿連結 */
+/* 相簿連結 */
+#page_D>.nav{
+    background-color: #fff;
+    margin: auto;
+    width:60vw ;
+    height: 15%;
+    padding-left: 1.5rem;
+}
+#page_D>.nav>li>h1{
+    font-size: 3.5rem;
+    margin-right: 20px;
+}
+#page_D>.nav .nav-item a{
+    margin-top: 26px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.4rem;
+}
+#page_D_main{
+    background-color: #eee;
+    /* display: none; */
+    /* width: 200px; */
+    height: 85%;
+}
+#page_D_main .tab-pane .tab-content .tab-pane {
+    box-sizing: content-box;
+    border: solid pink 2.3vh;
+    width: 104vh;
+    height: 78vh;
+}
+
+/* D_Mina的大圖 */
+/* D_Mina的大圖 */
+/* D_Mina的大圖 */
+#D_1{
+    background-image: url(../../素材/測試用圖片/800x600.jpeg);
+    margin: auto;
+}
+#D_2{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+
+    margin: auto;
+}
+#D_3{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+  
+    margin: auto;
+}
+#D_4{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+   
+    margin: auto;
+}
+#D_5{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+   
+    margin: auto;
+}
+#D_6{
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+
+    margin: auto;
+}
+#D_7{
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+
+    margin: auto;
+}
+#D_8{
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+
+    margin: auto;
+}
+#D_9{
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+
+    margin: auto;
+}
+#D_10{
+    background-image: url(../../素材/測試用圖片/600x400_9.jpg);
+
+    margin: auto;
+}
+/* D_Mina的小圖與連結 */
+/* D_Mina的小圖與連結 */
+/* D_Mina的小圖與連結 */
+#D_Mina>ul{
+    width:0 ;
+    margin: auto;
+    background-color: #fff;
+}
+#D_Mina>ul li{
+    margin-top:3%;
+}
+
+
+#D_Mina>ul li:nth-child(1)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20200809_021434.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -80.2vh;
+
+}
+
+#D_Mina>ul li:nth-child(2)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -64.2vh;
+    
+}
+#D_Mina>ul li:nth-child(3)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -48.1vh;
+}
+#D_Mina>ul li:nth-child(4)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -32vh;
+}
+#D_Mina>ul li:nth-child(5)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -16vh;
+}
+#D_Mina>ul li:nth-child(6)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20200809_021434.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -80.2vh;
+}
+#D_Mina>ul li:nth-child(7)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -64.2vh;
+}
+#D_Mina>ul li:nth-child(8)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -48.1vh;
+}
+#D_Mina>ul li:nth-child(9)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -32vh;
+}
+#D_Mina>ul li:nth-child(10)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -16vh;
+}
+
+
+
+/* 以下是D_Wolfy的圖片 */
+/* 以下是D_Wolfy的圖片 */
+/* 以下是D_Wolfy的圖片 */
+#D_11{
+    background-image: url(../../素材/測試用圖片/800x600.jpeg);
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+#D_12{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_13{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_14{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_15{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_16{
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_17{
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_18{
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_19{
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_20{
+    background-image: url(../../素材/測試用圖片/600x400_9.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+/* D_Wolfy的小圖與連結 */
+/* D_Wolfy的小圖與連結 */
+/* D_Wolfy的小圖與連結 */
+#D_Wolfy>ul{
+    width:60vw ;
+    margin: auto;
+}
+#D_Wolfy>ul li{
+    margin-top:3%;
+}
+
+
+#D_Wolfy>ul li:nth-child(1)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20200809_021434.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#D_Wolfy>ul li:nth-child(2)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    
+}
+#D_Wolfy>ul li:nth-child(3)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(4)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(5)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(6)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(7)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(8)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(9)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Wolfy>ul li:nth-child(10)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 以下為D_Luna的大圖 */
+/* 以下為D_Luna的大圖 */
+/* 以下為D_Luna的大圖 */
+#D_21{
+    background-image: url(../../素材/測試用圖片/800x600.jpeg);
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+#D_22{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_23{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_24{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_25{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_26{
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_27{
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_28{
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_29{
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+#D_30{
+    background-image: url(../../素材/測試用圖片/600x400_9.jpg);
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+/* 以下為D_Lune的小圖與連結 */
+/* 以下為D_Lune的小圖與連結 */
+/* 以下為D_Lune的小圖與連結 */
+
+#D_Luna>ul{
+    width:60vw ;
+    margin: auto;
+}
+#D_Luna>ul li{
+    margin-top:3%;
+}
+
+
+#D_Luna>ul li:nth-child(1)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20200809_021434.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#D_Luna>ul li:nth-child(2)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../img/MY_dog_cat_picture/IMG_20191029_070140.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    
+}
+#D_Luna>ul li:nth-child(3)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(4)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(5)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(6)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(7)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(8)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(9)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#D_Luna>ul li:nth-child(10)>a{
+    width: 9vw;
+    height: 6vw;
+    background-image: url(../../素材/測試用圖片/600x400_9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,301 @@
+body{
+    background-color: #999;
+    /* bookmark移到body外時避免出現捲動條 */
+    overflow: hidden;
+}
+
+/* 首頁 */
+#gate>div{
+    background-color: #fff;
+    width: 600px;
+    height: 500px;
+    margin: 8vh auto 4vh auto;
+}
+/* 全域 */
+/* 全域 */
+.hero_image{
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.banner{
+    background-color: green;
+    position: sticky;
+    top: 0;
+    height: 20vh;
+    z-index: 1;
+}
+.page_content{
+    margin: 50vh 0 0 0;
+    /* opacity: .99;
+    z-index: 1; */
+}
+
+
+.ABCimg{
+    position: sticky;
+    height: 80Vh;
+    top: 20vh;
+    background-color: #555;
+}
+
+.bookmark{
+    background-color: #fff;
+    width: 20vw;
+    height: 5%;
+    position: absolute;
+    top:0%;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 0 0 30% 30%;
+    z-index: 5;
+}
+.bookmark:hover{
+    transition: 0.5s;
+    height: 8vh;
+    line-height: 8vh;
+}
+#bm_Gall{
+    left: 20%;
+    background-color: cornflowerblue;
+}
+#bm_Wolfy{
+    left: 40%;
+    background-color: #ddd;
+}
+#bm_IDK{
+    left: 60%;
+    background-color: #000;
+}
+#bm_Luna{
+    left: 80%;
+    background-color: orange;
+}
+
+
+
+
+/* A頁面 */
+/* A頁面 */
+#page_A{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #090;
+}
+
+#page_A>.hero_image{
+    background-position: left;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/測試圖片/1920x1280.jpg),linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+}
+
+.Aimg_1{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Aimg_2{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Aimg_3{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Aimg_4{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* B頁面 */
+/* B頁面 */
+
+#page_B{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    left: 40%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #900;
+}
+
+
+
+#page_B>.hero_image{
+    background-position: center;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/測試圖片/1920x1280.jpg),linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
+ 
+}
+#page_B>.hero_image>h1, h2{
+    margin: 100px;    
+}
+.Bimg_1{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_2{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_3{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_4{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_5{
+    background-image: url(../../素材/測試用圖片/600x400_5.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_6{
+    background-image: url(../../素材/測試用圖片/600x400_6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_7{
+    background-image: url(../../素材/測試用圖片/600x400_7.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Bimg_8{
+    background-image: url(../../素材/測試用圖片/600x400_8.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* C頁面 */
+/* C頁面 */
+/* #page_C{
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 3000px;
+    background-color: #ddd;
+} */
+#page_C{
+    overflow: hidden;
+    position: absolute;
+    top: -100%;
+    left: 80%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #009;
+}
+
+
+
+#page_C>.hero_image{
+    background-position: right;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../img/測試圖片/1920x1280.jpg),linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);;
+}
+
+.Cimg_1{
+    background-image: url(../../素材/測試用圖片/600x400_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Cimg_2{
+    background-image: url(../../素材/測試用圖片/600x400_2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Cimg_3{
+    background-image: url(../../素材/測試用圖片/600x400_3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Cimg_4{
+    background-image: url(../../素材/測試用圖片/600x400_4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* D頁面 */
+/* D頁面 */
+/* #page_D{ */
+    /* display: none; */
+    /* overflow: hidden; */
+    /* overflow: scroll;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #ddd;
+} */
+#page_D{
+    overflow: scroll;
+    position: absolute;
+    top: -100%;
+    left: 20%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #555;
+}
+.nav-pills .nav-link.active{
+    color: gray;
+    background-color: pink;
+}
+#page_D ul:not(:first-child) .nav-link.active{
+    transition: 0.5s;
+    transform: scale(1.35);
+    /* display: none; */
+    /* background-color: pink; */
+}
+
+/* 想改變大圖transition的時間， 但卻出現BUG */
+/* .tab-content div{
+    transition: 0.5s;
+} */
+
+

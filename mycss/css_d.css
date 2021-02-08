@@ -1,0 +1,720 @@
+
+/* D頁面 */
+/* D頁面 */
+
+#page_D{
+    overflow: scroll;
+    position: absolute;
+    top: -100%;
+    left: 20%;
+    width: 20vw;
+    max-width: 100%;
+    height: 100%;
+    background-color: #555;
+}
+/* .nav-pills .nav-link.active{
+    color: gray;
+    background-color: pink;
+} */
+#page_D ul:not(:first-child) .nav-link.active{
+    transition: 1s;
+    transform: scale(1.35);
+    /* display: none; */
+    /* background-color: pink; */
+}
+
+/* 想改變大圖transition的時間， 但卻出現BUG */
+/* .tab-content div{
+    transition: 0.5s;
+} */
+
+
+
+/* 相簿連結 */
+/* 相簿連結 */
+/* 相簿連結 */
+#page_D>.nav{
+    background-color: #000;
+    margin: 0 auto;
+    width:58.8vw ;
+    height: 15vh;
+    padding-left: 1.5rem;
+    /* padding-top: 4.2vh; */
+}
+#page_D>.nav>li>h1{
+    font-size: 4.4rem;
+    margin-right: 20px;
+    color: #fff;
+}
+#page_D>.nav .nav-item a{
+    margin-top: 6.2vh;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 4vh;
+}
+#page_D .nav-link{
+    color: #fff;
+}
+#page_D .nav-link.active{
+    color: #000;
+    background-color: #eee;
+    border-radius: 5% 5% 0 0;
+}    
+
+#page_D_main{
+    background-color: #000;
+    height: 83vh;
+    width: 100vw;
+}
+
+#page_D_main.show, #page_D_nav.show{
+    transition: 1s;
+    opacity: 1;
+}
+#page_D_main.notShow, #page_D_nav.notShow{
+    opacity: 0;
+}
+
+#page_D_main .tab-pane .tab-content .tab-pane {
+    box-sizing: content-box;
+    border: solid #eee 2.3vh;
+    border-bottom: solid #eee 2.9vh;
+    width: 104vh;
+    height: 78vh;
+}
+
+/* D_Mina的大圖 */
+/* D_Mina的大圖 */
+/* D_Mina的大圖 */
+
+/* 有時候會無效，而且時間拉長後，若在動畫還在跑的時候點其它照片
+會出現嚴重的BUG
+因為D頁面的效果是用bootstrap改的
+所以不知從何下手處理BUG */
+/* #D_Mina>div>div{
+    transition: opacity 0.5s
+} */
+
+#D_1{
+    background-image: url(../img/Mina_img/Mina_13.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_2{
+    background-image: url(../img/Mina_img/Mina_11.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_3{
+    background-image: url(../img/Mina_img/Mina_1.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_4{
+    background-image: url(../img/Mina_img/Mina_12.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_5{
+    background-image: url(../img/Mina_img/Mina_10.jpg);
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_6{
+    background-image: url(../img/Mina_img/Mina_3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_7{
+    background-image: url(../img/Mina_img/Mina_8.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_8{
+    background-image: url(../img/Mina_img/Mina_4_2.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_9{
+    background-image: url(../img/Mina_img/Mina_7_3.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_10{
+    background-image: url(../img/Mina_img/Mina_9.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+/* D_Mina的小圖與連結 */
+/* D_Mina的小圖與連結 */
+/* D_Mina的小圖與連結 */
+#D_Mina>ul{
+    width:0 ;
+    margin: auto;
+    background-color: #fff;
+}
+#D_Mina>ul li{
+    margin-top:3%;
+}
+
+
+#D_Mina>ul li:nth-child(1)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_13.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -80.2vh;
+}
+
+#D_Mina>ul li:nth-child(2)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_11.jpg);
+    background-size: 450%;
+    background-repeat: no-repeat;
+    background-position: 68% 55%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -64.2vh;
+    
+}
+#D_Mina>ul li:nth-child(3)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_1.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -48.1vh;
+}
+#D_Mina>ul li:nth-child(4)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_12.jpg);
+    background-size: 350%;
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -32vh;
+}
+#D_Mina>ul li:nth-child(5)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_10.jpg);
+    background-size: 230%;
+    background-repeat: no-repeat;
+    background-position: 45% 40%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -16vh;
+}
+#D_Mina>ul li:nth-child(6)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_3.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 30% 20%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -80.2vh;
+}
+#D_Mina>ul li:nth-child(7)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_8.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 40% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -64.2vh;
+}
+#D_Mina>ul li:nth-child(8)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_4_2.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -48.1vh;
+}
+#D_Mina>ul li:nth-child(9)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_7_3.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 35% 25%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -32vh;
+}
+#D_Mina>ul li:nth-child(10)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Mina_img/Mina_9.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 90% 40%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -16vh;
+}
+
+
+
+/* 以下是D_Wolfy的圖片 */
+/* 以下是D_Wolfy的圖片 */
+/* 以下是D_Wolfy的圖片 */
+#D_11{
+    background-image: url(../img/Wolfy_img/Wolfy_5.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_12{
+    background-image: url(../img/Wolfy_img/Wolfy_3.jpg);
+    background-position: 50% 70%;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_13{
+    background-image: url(../img/Wolfy_img/Wolfy_7.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_14{
+    background-image: url(../img/Wolfy_img/Wolfy_9.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_15{
+    background-image: url(../img/Wolfy_img/Wolfy_15.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_16{
+    background-image: url(../img/Wolfy_img/Wolfy_18.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_17{
+    background-image: url(../img/Wolfy_img/Wolfy_8.jpg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_18{
+    background-image: url(../img/Wolfy_img/Wolfy_6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_19{
+    background-image: url(../img/Wolfy_img/Wolfy_17.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_20{
+    background-image: url(../img/Wolfy_img/Wolfy_13.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+/* D_Wolfy的小圖與連結 */
+/* D_Wolfy的小圖與連結 */
+/* D_Wolfy的小圖與連結 */
+#D_Wolfy>ul{
+    width:0 ;
+    margin: auto;
+    background-color: #fff;
+}
+#D_Wolfy>ul li{
+    margin-top:3%;
+}
+
+
+#D_Wolfy>ul li:nth-child(1)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_5.jpg);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -80.2vh;
+}
+
+#D_Wolfy>ul li:nth-child(2)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_3.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: 20% 35%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -64.2vh;
+    
+}
+#D_Wolfy>ul li:nth-child(3)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_7.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -48.1vh;
+}
+#D_Wolfy>ul li:nth-child(4)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_9.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -32vh;
+}
+#D_Wolfy>ul li:nth-child(5)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_15.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 65% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -16vh;
+}
+#D_Wolfy>ul li:nth-child(6)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_18.jpg);
+    background-size: 350%;
+    background-repeat: no-repeat;
+    background-position: 50% 47%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -80.2vh;
+}
+#D_Wolfy>ul li:nth-child(7)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_8.jpg);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -64.2vh;
+}
+#D_Wolfy>ul li:nth-child(8)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_6.jpg);
+    background-size: 450%;
+    background-repeat: no-repeat;
+    background-position: 60% 15%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -48.1vh;
+}
+#D_Wolfy>ul li:nth-child(9)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_17.jpg);
+    background-size: 350%;
+    background-repeat: no-repeat;
+    background-position: 85% 40%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -32vh;
+}
+#D_Wolfy>ul li:nth-child(10)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Wolfy_img/Wolfy_13.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -16vh;
+}
+
+/* 以下為D_Luna的大圖 */
+/* 以下為D_Luna的大圖 */
+/* 以下為D_Luna的大圖 */
+#D_21{
+    background-image: url(../img/Luna_img/Luna_0.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_22{
+    background-image: url(../img/Luna_img/Luna_1.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_23{
+    background-image: url(../img/Luna_img/Luna_2.jpg);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_24{
+    background-image: url(../img/Luna_img/Luna_3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_25{
+    background-image: url(../img/Luna_img/Luna_4.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_26{
+    background-image: url(../img/Luna_img/Luna_5.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_27{
+    background-image: url(../img/Luna_img/Luna_6.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_28{
+    background-image: url(../img/Luna_img/Luna_10.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_29{
+    background-image: url(../img/Luna_img/Luna_8.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#D_30{
+    background-image: url(../img/Luna_img/Luna_12.jpg);
+    background-position: 0% 0%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+/* 以下為D_Lune的小圖與連結 */
+/* 以下為D_Lune的小圖與連結 */
+/* 以下為D_Lune的小圖與連結 */
+
+#D_Luna>ul{
+    width:0 ;
+    margin: auto;
+    background-color: #fff;
+}
+#D_Luna>ul li{
+    margin-top:3%;
+}
+
+
+#D_Luna>ul li:nth-child(1)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_0.jpg);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 45% 30%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -80.2vh;
+}
+
+#D_Luna>ul li:nth-child(2)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_1.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 10% 0%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -64.2vh;
+    
+}
+#D_Luna>ul li:nth-child(3)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_2.jpg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: 70% 10%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -48.1vh;
+}
+#D_Luna>ul li:nth-child(4)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_3.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 80% 30%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -32vh;
+}
+#D_Luna>ul li:nth-child(5)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_4.jpg);
+    background-size: 180%;
+    background-repeat: no-repeat;
+    background-position: 60% 30%;
+    position: absolute;
+    left: calc(-104vh/2 - 21vh);
+    top: -16vh;
+}
+#D_Luna>ul li:nth-child(6)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_5.jpg);
+    background-size: 220%;
+    background-repeat: no-repeat;
+    background-position: 35% 35%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -80.2vh;
+}
+#D_Luna>ul li:nth-child(7)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 85% 30%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -64.2vh;
+}
+#D_Luna>ul li:nth-child(8)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_10.jpg);
+    background-size: 350%;
+    background-repeat: no-repeat;
+    background-position: 52% 40%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -48.1vh;
+}
+#D_Luna>ul li:nth-child(9)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_8.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -32vh;
+}
+#D_Luna>ul li:nth-child(10)>a{
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/Luna_img/Luna_12.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    position: absolute;
+    left: calc(104vh/2 + 7.9vh);
+    top: -16vh
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
